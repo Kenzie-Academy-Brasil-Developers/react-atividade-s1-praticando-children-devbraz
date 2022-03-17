@@ -1,0 +1,41 @@
+.father {
+
+     width: 400px;
+     height: 200px;
+     padding: 20px;
+     margin: 10px;
+     border: 5px solid black;
+     border-radius:3px;
+     box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+     background-color: rgb(148, 152, 157);
+     
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+     cursor: pointer;
+     transition:.2s all; 
+     
+}
+
+.father:hover {
+
+     filter:blur(3px);
+     opacity:.5;
+     transform: scale(.98);
+     box-shadow:none;
+
+}
+   
+
+img {
+     width: 200px;
+     height: 200px;
+}
+
+.samsung {
+     width: 400px;
+}
+
+
+
